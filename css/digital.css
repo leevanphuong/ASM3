@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 10px;
+  gap: 10px;
+  overflow: auto;
+  align-content: center;
+  background-color: blue;
+}
+
+.grid-item {
+  background-color: #f0f8ff;
+  text-align: center;
+  padding: 0px 10px;
+}
+
+/* goals*/
+.goals {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.goals h1 {
+  padding: 10px;
+  font-size: 35px;
+  text-align: left;
+  color: blue;
+}
+
+.goal ul li {
+  list-style: none;
+  display: inline;
+  text-align: left;
+}
+
+.goal ul li i {
+  float: left;
+  font-size: 20px;
+}
+
+.tiendo {
+  padding-left: 50px;
+}
+
+/*team */
+.team h1 {
+  padding: 10px;
+  font-size: 35px;
+  text-align: left;
+  color: blue;
+}
+
+.goal h3 {
+  font-size: 25px;
+}
+
+/*scopes*/
+.scopes h1 {
+  padding: 10px;
+  font-size: 35px;
+  text-align: left;
+  color: blue;
+}
+
+.in h3 {
+  font-size: 30px;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.in p {
+  text-align: left;
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+.out p {
+  text-align: left;
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+.out h3 {
+  font-size: 30px;
+  padding-left: 20px;
+  text-align: left;
+}
+
+/*primary*/
+.primary h1 {
+  padding: 10px;
+  font-size: 35px;
+  text-align: left;
+  color: blue;
+}
+
+.primary ul li p {
+  padding-left: 20px;
+  font-size: 18px;
+}
+/*timeline*/
+.timeline h1 {
+  padding: 10px;
+  font-size: 35px;
+  text-align: left;
+  color: blue;
+}
+.timeline h4 {
+  text-align: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 1px solid gray;
+  float: left;
+  color: #fff;
+  padding-top: 8px;
+  background-color: #9e88ff;
+}
+.timeline h3 {
+  font-size: 20px;
+  padding-left: 20px;
+  text-align: left;
+}
+.timeline ul li p {
+  padding-left: 20px;
+  font-size: 18px;
+}
+.dashed {
+  border-style: dashed;
+  border-color: #9e88ff;
+  border-width: 2px;
+}
+
+aside {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+}
+/*tablet*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  main {
+    display: block;
+  }
+  /* goals*/
+  .goals ul li {
+    list-style: none;
+    display: block;
+    padding: 20px 0px;
+  }
+  .goals ul li i {
+    display: block;
+    padding-left: 50%;
+    font-size: 25px;
+  }
+  .goals ul li .tiendo {
+    display: block;
+    padding-top: 50px;
+  }
+
+  /*team */
+  .team ul li {
+    list-style: none;
+    display: block;
+    padding: 20px 0px;
+  }
+  .team ul li i {
+    display: block;
+    padding-left: 50%;
+    font-size: 25px;
+  }
+  .team ul li .tiendo {
+    display: block;
+    padding-top: 50px;
+  }
+
+  /*scopes*/
+  .in {
+    margin-bottom: 20px;
+  }
+
+  /*primary*/
+  .primary {
+    margin-top: 20px;
+  }
+  .primary ul li {
+    list-style: none;
+    display: block;
+    padding: 20px 0px;
+  }
+  .primary ul li i {
+    display: block;
+    padding-left: 50%;
+    font-size: 25px;
+  }
+  .primary ul li .tiendo {
+    text-align: center;
+    display: block;
+    padding-top: 50px;
+  }
+  /*timeline*/
+  .timeline {
+    padding-bottom: 10px;
+  }
+}
+/*mobile*/
+@media (max-width: 767px) {
+  main {
+    display: block;
+  }
+  /* goals*/
+  .goals ul li {
+    list-style: none;
+    display: block;
+    padding: 20px 0px;
+  }
+  .goals ul li i {
+    display: block;
+    padding-left: 50%;
+    font-size: 25px;
+  }
+  .goals ul li .tiendo {
+    display: block;
+    padding-top: 50px;
+  }
+
+  /*team */
+  .team ul li {
+    list-style: none;
+    display: block;
+    padding: 20px 0px;
+  }
+  .team ul li i {
+    display: block;
+    padding-left: 50%;
+    font-size: 25px;
+  }
+  .team ul li .tiendo {
+    display: block;
+    padding-top: 50px;
+  }
+
+  /*scopes*/
+  .in {
+    margin-bottom: 20px;
+  }
+
+  /*primary*/
+  .primary {
+    margin-top: 20px;
+  }
+  .primary ul li {
+    list-style: none;
+    display: block;
+    padding: 20px 0px;
+  }
+  .primary ul li i {
+    display: block;
+    padding-left: 50%;
+    font-size: 25px;
+  }
+  .primary ul li .tiendo {
+    display: block;
+    padding-top: 50px;
+  }
+  /*timeline*/
+  .timeline {
+    padding-bottom: 10px;
+  }
+}

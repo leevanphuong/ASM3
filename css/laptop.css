@@ -1,0 +1,348 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  border: 1px solid gray;
+  padding: 20px;
+  overflow: auto;
+}
+
+/*banner*/
+#banner {
+  background-image: url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 550px;
+  position: relative;
+  opacity: 0.8;
+  filter: brightness(50%);
+}
+.name {
+  margin: 0 auto;
+  position: absolute;
+  text-align: center;
+  top: 140px;
+  left: 0;
+  right: 0;
+}
+
+.name h1,
+.name span {
+  font-family: "open_sanslight";
+  color: #fff;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.name h1 {
+  font-size: 35px;
+}
+
+/*nav*/
+#nav-bar {
+  width: 100%;
+  text-align: center;
+}
+
+#nav-bar .containers {
+  padding: 30px 0px;
+}
+
+#nav-bar .containers ul li {
+  padding: 30px 20px;
+  border-left: 1px solid gray;
+  display: inline;
+}
+
+#nav-bar .containers ul li a {
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+}
+
+#nav-bar .containers ul li:last-child {
+  border-right: 1px solid gray;
+}
+
+.icon {
+  color: #199cdb;
+  font-size: 20px;
+}
+
+/*about*/
+#about .containers {
+  font-family: sans-serif;
+}
+
+#about #target,
+#about #personal-info {
+  padding: 10px;
+  grid-row: 50px;
+  overflow: auto;
+}
+
+#about .containers #target {
+  height: 480px;
+  background-color: #f5f5f5;
+}
+
+#about .containers #personal-info {
+  height: 480px;
+  background-color: #f0f0f0;
+}
+
+#target h1 {
+  padding: 10px;
+  font-size: 30px;
+}
+
+#target p {
+  font-size: 20px;
+  padding: 10px;
+}
+
+#personal-info h1 {
+  padding: 10px;
+  font-size: 30px;
+}
+
+ul {
+  padding: 10px;
+}
+
+ul li {
+  list-style: none;
+  padding: 5px;
+  font-size: 20px;
+}
+
+/*JOb-info*/
+#job-info {
+  width: 80%;
+  margin: 0 auto;
+}
+#job-info .containers ul li {
+  font-size: 1em;
+}
+#job-info .containers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 20px;
+}
+.job h1 {
+  font-size: 30px;
+}
+#job-info .containers .job {
+  padding: 20px;
+  border: 1px solid #f0f0f0;
+}
+
+#job-info ul li span {
+  font-weight: 700;
+}
+
+.abc {
+  background-color: #199cdb;
+  color: #fff;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+#job-info h1 i {
+  font-size: 1em;
+}
+
+.job {
+  position: relative;
+}
+
+.job .ic {
+  position: absolute;
+  right: 30px;
+  top: 10px;
+}
+
+.job ul li .trinhdo {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 40px 40px 40px 40px;
+  padding-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.job ul li .trinhdo hr {
+  width: 30%;
+  padding: 2px 0px;
+  border-radius: 10px;
+}
+
+.like {
+  display: flex;
+  width: 100%;
+}
+.like li {
+  font-size: 0.7em;
+  text-align: center;
+  padding: 0.5em;
+  width: 33%;
+}
+ul li .btn-icon {
+  border: 1px solid #0b98d9;
+  color: #0b98d9;
+  height: 48px;
+  width: 48px;
+  padding-top: 10px;
+  border-radius: 50%;
+  font-size: 27px;
+  text-align: center;
+}
+
+/*Dự án*/
+#project {
+  width: 80%;
+  margin: 50px auto;
+}
+
+#project .image {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.image img {
+  width: 100%;
+}
+
+.ttPro {
+  border: 1px solid #c5c2c2;
+  min-height: 500px;
+}
+
+.ttPro ul li b {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.ttPro ul li {
+  font-size: 0.8em;
+  padding-top: 10px;
+}
+
+.ttPro ul li span {
+  font-size: 0.8em;
+}
+
+.ttPro ul li button {
+  border: 1px solid #199cdb;
+  background-color: #199cdb;
+  color: #fff;
+  width: 80px;
+  height: 30px;
+  border-radius: 20px;
+}
+
+.prott {
+  display: grid;
+  grid-template-columns: 0.6fr 1fr;
+}
+
+/*Chứng chỉ - Giải thưởng */
+#certificate {
+  padding-top: 5px;
+  margin-top: 50px;
+  padding-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#certificate .containers {
+  width: 80%;
+  margin: 50px auto;
+}
+
+#certificate .image {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.img-con {
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.tt-con img {
+  width: 100%;
+}
+
+.image .ttct:first-child {
+  border-right: 2px solid orange;
+}
+
+.tt-con {
+  display: grid;
+  grid-template-columns: 0.6fr 1fr;
+}
+
+.tt-con p {
+  padding-top: 10px;
+}
+
+.tt-con b {
+  text-transform: uppercase;
+}
+
+.ttct {
+  display: grid;
+  grid-template-columns: 0.6fr 1fr;
+}
+
+.tt {
+  padding-left: 20px;
+}
+
+.tt b {
+  text-transform: uppercase;
+}
+
+.tt p {
+  padding-top: 10px;
+}
+
+/* footer   */
+#footer {
+  background-color: #f0f0f0;
+}
+
+#footer .containers {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#footer .containers ul {
+  display: flex;
+  justify-content: center;
+}
+
+#footer .containers ul li a {
+  padding: 40px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+#footer .containers ul li i {
+  color: #199cdb;
+  padding-right: 10px;
+  font-size: 30px;
+}

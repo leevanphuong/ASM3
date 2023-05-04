@@ -1,0 +1,187 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  /*banners*/
+  .name h1,
+  .name span {
+    font-family: "open_sanslight";
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+
+  /*navbar*/
+
+  #nav-bar {
+    display: inline;
+  }
+
+  #nav-bar .containers {
+    padding: 20px 0px;
+  }
+
+  #nav-bar .containers ul li {
+    padding: 20px 20px;
+  }
+
+  #nav-bar .containers ul li a {
+    font-size: 15px;
+  }
+  .icon {
+    font-size: 15px;
+  }
+
+  .remove {
+    display: none;
+  }
+
+  /*about me*/
+
+  #about .containers #target {
+    height: 460px;
+  }
+
+  #about .containers #personal-info {
+    height: 460px;
+  }
+
+  #target h1 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  #target p {
+    font-size: 18px;
+  }
+
+  #personal-info h1 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  #personal-info ul li {
+    list-style: none;
+    padding-right: 10px;
+    font-size: 18px;
+  }
+
+  /*JOb-info*/
+  #job-info {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #job-info .containers {
+    margin-top: 20px;
+    gap: 10px;
+    grid-template-columns: 0.8fr 0.8fr;
+  }
+
+  #job-info .containers .job {
+    padding: 15px;
+  }
+
+  #job-info ul li span {
+    font-size: 20px;
+  }
+
+  #job-info ul li {
+    font-size: 18px;
+  }
+
+  #job-info h1 i {
+    padding-left: 60px;
+    font-size: 25px;
+  }
+
+  #job-info h1 {
+    font-size: 20px;
+  }
+
+  .job {
+    position: relative;
+  }
+
+  .job .ic {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+  }
+
+  .job ul li .trinhdo {
+    grid-template-columns: 50px 50px 50px 50px;
+  }
+  .like li {
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  ul li .btn-icon {
+    height: 38px;
+    width: 38px;
+    font-size: 20px;
+  }
+
+  /*Chứng chỉ - Giải thưởng */
+  #certificate .containers {
+    width: 100%;
+    padding: 10px 20px;
+  }
+  .tt-con {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    row-gap: 10px;
+    padding: 10px;
+  }
+
+  .ttct {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    row-gap: 10px;
+    padding: 20px;
+  }
+
+  /*Dự án*/
+  #project {
+    width: 100%;
+    margin: 50px auto;
+  }
+
+  #project .image {
+    gap: 10px;
+  }
+
+  .ttPro {
+    height: 700px;
+  }
+
+  .ttPro ul li {
+    font-size: 15px;
+    padding-top: 10px;
+  }
+
+  .ttPro ul li span {
+    font-size: 15px;
+  }
+
+  .ttPro ul li button {
+    width: 60px;
+    height: 20px;
+  }
+
+  /* footer   */
+
+  #footer .containers {
+    width: 100%;
+  }
+
+  #footer .containers ul li {
+    font-size: 15px;
+  }
+
+  #footer .containers ul li i {
+    font-size: 20px;
+  }
+}

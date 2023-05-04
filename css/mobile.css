@@ -1,0 +1,101 @@
+@media (max-width: 767px) {
+  /*banners*/
+  .name {
+    top: 150px;
+  }
+
+  .name h1,
+  .name span {
+    font-size: 20px;
+  }
+
+  /*navbar*/
+  #nav-bar .containers ul li {
+    padding: 7px 20px;
+    display: block;
+    border-left: 0px solid gray;
+    text-align: left;
+  }
+
+  #nav-bar .containers ul li:last-child {
+    border-right: 0px solid gray;
+  }
+
+  .icon {
+    font-size: 15px;
+  }
+
+  .remove {
+    display: none;
+  }
+
+  /*JOb-info*/
+  #job-info {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #job-info .containers {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    gap: 10px;
+  }
+
+  /*Chứng chỉ - Giải thưởng */
+
+  #certificate .containers {
+    width: 100%;
+    margin: 50px auto;
+    padding: 10px 20px;
+  }
+
+  #certificate .image {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .img-con {
+    grid-template-columns: 1fr;
+  }
+
+  .tt-con {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    row-gap: 10px;
+    padding: 10px;
+  }
+  .image .ttct:first-child {
+    border-right: 0px solid orange;
+    border-bottom: 2px solid orange;
+  }
+  .ttct {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    row-gap: 10px;
+    padding: 20px;
+  }
+
+  /*Dự án*/
+  #project {
+    width: 100%;
+  }
+
+  #project .image {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    row-gap: 40px;
+  }
+
+  /*footer*/
+  #footer {
+    margin-bottom: 20px;
+  }
+  #footer .containers ul li a {
+    display: none;
+  }
+}
